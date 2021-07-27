@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class='bg-secondary'>
+      <h1 class="display-4 text-center">A simple calculator</h1>
+      <hr class="my-4 bg-dark mb">
+      <div class="container bg-primary calculator">
+        <div class="row   text-center mb-4">
+          <div class="col bg-info">
+              <form>
+              <div class="form-group p-4">
+                <label for="calculator"></label>
+                <input type="text" class="form-control" id="calculator" pattern="[^a-zA-Z]+">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row text-center p-2">
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-danger clear clicker">C</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 pN clicker" value='-'>+/-</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 mod clicker" value='%'>%</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-warning division clicker" value='/'>/</button>
+          </div>
+        </div>
+        <div class="row text-center p-2">
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 seven clicker" value='7'>7</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 eight clicker" value='8'>8</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 nine clicker" value='9'>9</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-warning multiply clicker" value='*'>X</button>
+          </div>
+        </div>
+        <div class="row text-center p-2">
+          <div class="col pad">
+              <button type="button" class="btn btn-secondary btn-lg p-4 four clicker" value='4'>4</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 five clicker" value='5'>5</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 six clicker" value='6'>6</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-warning subtract clicker" value='-'>-</button>
+          </div>
+        </div>
+        <div class="row text-center p-2">
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 one clicker" value='1'>1</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 two clicker" value=2>2</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 three clicker" value='3'>3</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-warning add clicker" value='+'>+</button>
+          </div>
+        </div>
+        <div class="row text-center p-2">
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 zero clicker" value='0'>0</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 decimal clicker" value='.'>.</button>
+          </div>
+          <div class="col">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-danger backspace clicker"> &lt;= </button>
+          </div>
+          <div class="col mb-4">
+              <button type="button" class="btn btn-secondary btn-lg p-4 bg-warning equals clicker">=</button>
+          </div>
+       
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
